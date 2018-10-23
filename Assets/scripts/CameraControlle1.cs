@@ -13,27 +13,20 @@ public class CameraControlle1 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update ()
-    {           
-  /*/           if (Input.GetAxis("Mouse X") > 0 )
-            {
-                transform.position += new Vector3(Input.GetAxisRaw("Mouse X") * Time.deltaTime * speed, 0.0f, Input.GetAxisRaw("Mouse Y") * Time.deltaTime * speed);
+    {
 
-            }
-            else if (Input.GetAxis("Mouse X") < 0 )
-            {
-                transform.position += new Vector3(Input.GetAxisRaw("Mouse X") * Time.deltaTime * speed, 0.0f, Input.GetAxisRaw("Mouse Y") * Time.deltaTime * speed);
-            }*/
-
-           //  && Input.GetButtonDown("Fire1")
     }
     public void zoomIn()
     {
+        if(camera.orthographicSize<=80)
+        
         camera.orthographicSize+=5;   
          
     }
     public void zoomOut()
     {
-        camera.orthographicSize -= 5;
+        if (camera.orthographicSize >= 40)
+            camera.orthographicSize -= 5;
     }
 
 
