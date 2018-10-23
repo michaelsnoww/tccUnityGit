@@ -7,7 +7,6 @@ using System;
 
 public class LeitorQR : MonoBehaviour {
     private WebCamTexture camTexture;
-    private Rect screenRect;
 
     // Use this for initialization
     void Start () {
@@ -30,7 +29,7 @@ public class LeitorQR : MonoBehaviour {
     void OnGUI()
     {
         // drawing the camera on screen
-        GUI.DrawTexture(screenRect, camTexture, ScaleMode.ScaleToFit);
+      //  GUI.DrawTexture(screenRect, camTexture, ScaleMode.ScaleToFit);
         // do the reading — you might want to attempt to read less often than you draw on the screen for performance sake
         try
         {

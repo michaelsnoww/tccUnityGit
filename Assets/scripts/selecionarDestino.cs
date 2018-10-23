@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,8 +7,11 @@ public class selecionarDestino : MonoBehaviour {
     public GameObject player;
     scriptMovimento scripMover;
     public Transform esseAlvo;
+    public float clickTimer = 1f;
+    private int counter=0;
+
     // Use this for initialization
-	void Start () {
+    void Start () {
         scripMover = player.GetComponent<scriptMovimento>();
     }
 	
@@ -18,8 +22,29 @@ public class selecionarDestino : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        scripMover.alvo = esseAlvo;
+        buttonListner();
 
+    }
+
+    private void buttonListner()
+    {
+        counter++;
+            if (counter == 1)
+        {
+            StartCoroutine("doubleClickEvent");
+        }
+    }
+
+    IEnumerator doubleClickEvent()
+    {
+        yield return new WaitForSeconds(clickTimer);
+        if (counter > 1)
+        {
+            scripMover.alvo = esseAlvo;
+        }
+
+        yield return new WaitForSeconds(.01f);
+        counter = 0;
     }
 
 }

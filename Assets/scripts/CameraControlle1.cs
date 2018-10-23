@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraControlle1 : MonoBehaviour {
-    public  float speed = 25;
+  /*  public  float speed = 25;
     private Camera camera;
 
 	// Use this for initialization
@@ -29,5 +29,5 @@ public class CameraControlle1 : MonoBehaviour {
             camera.orthographicSize -= 5;
     }
 
-
+    */
 }

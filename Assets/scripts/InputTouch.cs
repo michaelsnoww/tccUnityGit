@@ -20,4 +20,17 @@ public class InputTouch : MonoBehaviour {
 
         }
     }
+
+    public void zoomIn()
+    {
+        if (Camera.main.orthographicSize <= 80)
+
+            Camera.main.orthographicSize += 5;
+
+    }
+    public void zoomOut()
+    {
+        if (Camera.main.orthographicSize >= 40)
+            Camera.main.orthographicSize -= 5;
+    }
 }
