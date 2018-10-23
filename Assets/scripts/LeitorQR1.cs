@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class LeitorQR1 : MonoBehaviour {
     private WebCamTexture camTexture;
+    public int fps=5;
     private Rect screenRect;
     RawImage rawImage;
     public GameObject posicaoAtual;
@@ -19,7 +20,6 @@ public class LeitorQR1 : MonoBehaviour {
     public GameObject posicaoProx2;
     // Use this for initialization
     void Start () {
-        //  screenRect = new Rect(0, 0, Screen.width, Screen.height);
 
         transformAtual = posicaoAtual.GetComponent<Transform>();
         transformProx = posicaoProx.GetComponent<Transform>();
@@ -27,8 +27,9 @@ public class LeitorQR1 : MonoBehaviour {
 
         rawImage = GetComponent<RawImage>();
         camTexture = new WebCamTexture();
-        camTexture.requestedHeight = Screen.height;
-        camTexture.requestedWidth = Screen.width;
+        camTexture.requestedWidth = 320;
+        camTexture.requestedHeight = 480;
+        
         if (camTexture != null)
         {
            
@@ -53,7 +54,7 @@ public class LeitorQR1 : MonoBehaviour {
             if (result != null)
             {
                  Debug.Log("DECODED TEXT FROM QR:"  +result.Text);
-               /* if (result.Text == "1")
+                if (result.Text == "1")
                 {
                  //   print("atualiza");
                     transformAtual.position = transformProx.position;
@@ -61,7 +62,7 @@ public class LeitorQR1 : MonoBehaviour {
                 {
                     transformAtual.position = transformProx2.position;
 
-                }*/
+                }
             }
         }
         catch (Exception ex) { Debug.LogWarning(ex.Message); }

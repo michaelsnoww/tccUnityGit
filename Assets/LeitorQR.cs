@@ -11,10 +11,11 @@ public class LeitorQR : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        screenRect = new Rect(0, 0, Screen.width, Screen.height);
+       // screenRect = new Rect(0, 0, Screen.width, Screen.height);
         camTexture = new WebCamTexture();
-        camTexture.requestedHeight = Screen.height;
-        camTexture.requestedWidth = Screen.width;
+        camTexture.requestedWidth = 320;
+        camTexture.requestedHeight = 480;
+
         if (camTexture != null)
         {
             camTexture.Play();
@@ -35,8 +36,7 @@ public class LeitorQR : MonoBehaviour {
         {
             IBarcodeReader barcodeReader = new BarcodeReader();
             // decode the current frame
-            var result = barcodeReader.Decode(camTexture.GetPixels32(),
-              camTexture.width, camTexture.height);
+            var result = barcodeReader.Decode(camTexture.GetPixels32(),camTexture.width, camTexture.height);
             if (result != null)
             {
                 Debug.Log("DECODED TEXT FROM QR:"  +result.Text);

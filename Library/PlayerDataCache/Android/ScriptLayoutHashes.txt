@@ -124,7 +124,7 @@ e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSyste
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 96f3ea9f23b6f08e60710ebb4af49174 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 9a13a71906cfd7a654812a33b1bf8c92 Assembly-CSharp.dll:.selecionarDestino
-585c49ab63f7746fc2d4d64cf2aad47d Assembly-CSharp.dll:.LeitorQR1
+7df34fff314a70c3c2eae4f2b3808955 Assembly-CSharp.dll:.LeitorQR1
 f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 b113ecf3aa014d2d5d75ec7a44e1d060 Assembly-CSharp.dll:.scriptMovimento
 486cd95c82d8305219c352c06b776e1f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
