@@ -22,11 +22,13 @@ public class selecionarDestino : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        buttonListner();
+        //  buttonListner();
+        scripMover.alvo = esseAlvo;
+
 
     }
 
-    private void buttonListner()
+  /*  private void buttonListner()
     {
         counter++;
             if (counter == 1)
@@ -45,6 +47,6 @@ public class selecionarDestino : MonoBehaviour {
 
         yield return new WaitForSeconds(.01f);
         counter = 0;
-    }
+    }*/  
 
 }
