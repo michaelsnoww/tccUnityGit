@@ -1,7 +1,8 @@
 Android
 PlayerPath?
-C:/Users/Michael/Desktop/tcc.apk
+C:/Users/Michael/Desktop/tccapk2.apk
 SceneListBegin?
+Assets/Scenes/login.unity
 Assets/Scenes/MapaIFRR.unity
 SceneListEnd?
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -276,6 +277,7 @@ c8a41ce4eea7677f6dd2aa0e422a2f04 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehav
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 0f777c16bac73728cd4def6377e3d1c9 Assembly-CSharp.dll:.NavigationDebug
+aeb71d7a624471183442a6dab55d7d03 Assembly-CSharp.dll:.LoginController
 182e416670915c50a548c38c642db0d8 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 f35860350df72508419d9f9fcd288594 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 182e416670915c50a548c38c642db0d8 Vuforia.UnityExtensions.dll:Vuforia.AnchorStageBehaviour
