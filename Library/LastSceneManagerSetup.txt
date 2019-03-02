@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/mapa com plant- nomes e cores.unity
+- path: Assets/Scenes/3mapa com plant- nomes e cores  - configurando navmesh.unity
   isLoaded: 1
   isActive: 1

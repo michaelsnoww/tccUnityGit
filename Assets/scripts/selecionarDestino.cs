@@ -7,7 +7,7 @@ public class selecionarDestino : MonoBehaviour {
     public GameObject player;
     scriptMovimento scripMover;
     public Transform esseAlvo;
-    public float clickTimer = 1f;
+  //  public float clickTimer = 1f;
     private int counter=0;
 
     // Use this for initialization
