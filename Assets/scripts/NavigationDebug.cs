@@ -19,6 +19,8 @@ public class NavigationDebug : MonoBehaviour {
         if (agentToDebug.hasPath)
         {
             linerenderer.positionCount = agentToDebug.path.corners.Length;
+            linerenderer.material.color=Color.black;
+           // linerenderer.
             linerenderer.SetPositions(agentToDebug.path.corners);
      
             linerenderer.enabled = true;

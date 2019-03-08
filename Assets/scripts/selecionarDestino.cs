@@ -6,13 +6,15 @@ using UnityEngine;
 public class selecionarDestino : MonoBehaviour {
     public GameObject player;
     scriptMovimento scripMover;
-    public Transform esseAlvo;
+    public  Transform esseAlvo;
   //  public float clickTimer = 1f;
     private int counter=0;
 
     // Use this for initialization
     void Start () {
         scripMover = player.GetComponent<scriptMovimento>();
+        esseAlvo = this.gameObject.transform.GetChild(0);
+        //esseAlvo = GetComponentInChildren<Transform>();
     }
 	
 	// Update is called once per frame

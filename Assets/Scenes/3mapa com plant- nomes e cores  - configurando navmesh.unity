@@ -216,6 +216,7 @@ GameObject:
   - component: {fileID: 4907913}
   - component: {fileID: 4907912}
   - component: {fileID: 4907911}
+  - component: {fileID: 4907914}
   m_Layer: 0
   m_Name: CCS
   m_TagString: Untagged
@@ -296,6 +297,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4907909}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &4907914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4907909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &8779644
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,6 +505,7 @@ GameObject:
   - component: {fileID: 14832870}
   - component: {fileID: 14832869}
   - component: {fileID: 14832868}
+  - component: {fileID: 14832871}
   m_Layer: 0
   m_Name: ESCADAS
   m_TagString: Untagged
@@ -570,6 +586,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14832866}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &14832871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14832866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &17041491
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +612,7 @@ GameObject:
   - component: {fileID: 17041494}
   - component: {fileID: 17041493}
   - component: {fileID: 17041492}
+  - component: {fileID: 17041496}
   m_Layer: 0
   m_Name: Arquivo
   m_TagString: Untagged
@@ -662,6 +693,20 @@ Transform:
   m_Father: {fileID: 911305032}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &17041496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17041491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &26687339
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,6 +1516,7 @@ GameObject:
   - component: {fileID: 78209128}
   - component: {fileID: 78209127}
   - component: {fileID: 78209126}
+  - component: {fileID: 78209129}
   m_Layer: 0
   m_Name: "ch\xE3o (59)"
   m_TagString: Untagged
@@ -1551,6 +1597,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78209124}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &78209129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78209124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &79808746
 GameObject:
   m_ObjectHideFlags: 0
@@ -1917,6 +1977,7 @@ GameObject:
   - component: {fileID: 97914431}
   - component: {fileID: 97914430}
   - component: {fileID: 97914429}
+  - component: {fileID: 97914432}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -1997,6 +2058,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97914427}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &97914432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97914427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &110924982
 GameObject:
   m_ObjectHideFlags: 0
@@ -3052,6 +3127,7 @@ GameObject:
   - component: {fileID: 142483776}
   - component: {fileID: 142483775}
   - component: {fileID: 142483774}
+  - component: {fileID: 142483777}
   m_Layer: 0
   m_Name: BANHEIRO
   m_TagString: Untagged
@@ -3132,6 +3208,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142483772}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &142483777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142483772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &150351613
 GameObject:
   m_ObjectHideFlags: 0
@@ -4057,6 +4147,7 @@ GameObject:
   - component: {fileID: 179160988}
   - component: {fileID: 179160987}
   - component: {fileID: 179160986}
+  - component: {fileID: 179160989}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -4137,6 +4228,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179160984}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &179160989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179160984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &181650573
 GameObject:
   m_ObjectHideFlags: 0
@@ -4245,6 +4350,7 @@ GameObject:
   - component: {fileID: 182663106}
   - component: {fileID: 182663105}
   - component: {fileID: 182663104}
+  - component: {fileID: 182663107}
   m_Layer: 0
   m_Name: REFEITORIO
   m_TagString: Untagged
@@ -4325,6 +4431,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182663102}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &182663107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182663102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &183798417
 GameObject:
   m_ObjectHideFlags: 0
@@ -5283,6 +5403,7 @@ GameObject:
   - component: {fileID: 207179648}
   - component: {fileID: 207179647}
   - component: {fileID: 207179646}
+  - component: {fileID: 207179649}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -5363,6 +5484,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207179644}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &207179649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207179644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &208277872
 GameObject:
   m_ObjectHideFlags: 0
@@ -5466,6 +5601,7 @@ GameObject:
   - component: {fileID: 208947171}
   - component: {fileID: 208947170}
   - component: {fileID: 208947169}
+  - component: {fileID: 208947172}
   m_Layer: 0
   m_Name: 'DAPE '
   m_TagString: Untagged
@@ -5546,6 +5682,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 208947167}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &208947172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208947167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &218114667
 GameObject:
   m_ObjectHideFlags: 0
@@ -5558,6 +5708,7 @@ GameObject:
   - component: {fileID: 218114671}
   - component: {fileID: 218114670}
   - component: {fileID: 218114669}
+  - component: {fileID: 218114672}
   m_Layer: 0
   m_Name: LAB. BIOLOGIA
   m_TagString: Untagged
@@ -5638,6 +5789,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218114667}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &218114672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218114667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &220010108
 GameObject:
   m_ObjectHideFlags: 0
@@ -6172,6 +6337,7 @@ GameObject:
   - component: {fileID: 238993363}
   - component: {fileID: 238993362}
   - component: {fileID: 238993361}
+  - component: {fileID: 238993364}
   m_Layer: 0
   m_Name: BIBLIOTECA
   m_TagString: Untagged
@@ -6252,6 +6418,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 238993359}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &238993364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238993359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &240658159
 GameObject:
   m_ObjectHideFlags: 0
@@ -6355,6 +6535,7 @@ GameObject:
   - component: {fileID: 243426623}
   - component: {fileID: 243426622}
   - component: {fileID: 243426621}
+  - component: {fileID: 243426624}
   m_Layer: 0
   m_Name: "LAB. DE INSTALA\xC7\xD5ES  HIDRAULICAS E SANIT\xC1RIAS"
   m_TagString: Untagged
@@ -6435,6 +6616,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243426619}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &243426624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243426619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &245860133
 GameObject:
   m_ObjectHideFlags: 0
@@ -7429,6 +7624,7 @@ GameObject:
   - component: {fileID: 274380808}
   - component: {fileID: 274380807}
   - component: {fileID: 274380806}
+  - component: {fileID: 274380809}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -7509,6 +7705,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274380804}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &274380809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274380804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &278175901
 GameObject:
   m_ObjectHideFlags: 0
@@ -7976,6 +8186,7 @@ GameObject:
   - component: {fileID: 299561397}
   - component: {fileID: 299561396}
   - component: {fileID: 299561395}
+  - component: {fileID: 299561398}
   m_Layer: 0
   m_Name: "PRA\xC7A"
   m_TagString: Untagged
@@ -8056,6 +8267,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299561393}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &299561398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299561393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &305391950
 GameObject:
   m_ObjectHideFlags: 0
@@ -8421,6 +8646,7 @@ GameObject:
   - component: {fileID: 323641733}
   - component: {fileID: 323641732}
   - component: {fileID: 323641731}
+  - component: {fileID: 323641734}
   m_Layer: 0
   m_Name: "AUDIT\xD3RIO "
   m_TagString: Untagged
@@ -8501,6 +8727,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323641729}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &323641734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323641729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &323744925
 GameObject:
   m_ObjectHideFlags: 0
@@ -9432,6 +9672,7 @@ GameObject:
   - component: {fileID: 391840215}
   - component: {fileID: 391840214}
   - component: {fileID: 391840213}
+  - component: {fileID: 391840216}
   m_Layer: 0
   m_Name: "LAB. INFORM\xC1TICA"
   m_TagString: Untagged
@@ -9512,6 +9753,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 391840211}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &391840216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391840211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &393975056
 GameObject:
   m_ObjectHideFlags: 0
@@ -10148,6 +10403,7 @@ GameObject:
   - component: {fileID: 412422537}
   - component: {fileID: 412422536}
   - component: {fileID: 412422535}
+  - component: {fileID: 412422538}
   m_Layer: 0
   m_Name: COLAB
   m_TagString: Untagged
@@ -10228,6 +10484,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412422533}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &412422538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412422533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &413571129
 GameObject:
   m_ObjectHideFlags: 0
@@ -10513,6 +10783,7 @@ GameObject:
   - component: {fileID: 422186073}
   - component: {fileID: 422186072}
   - component: {fileID: 422186071}
+  - component: {fileID: 422186074}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -10593,6 +10864,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422186069}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &422186074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422186069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &436579146
 GameObject:
   m_ObjectHideFlags: 0
@@ -11224,6 +11509,7 @@ GameObject:
   - component: {fileID: 464318178}
   - component: {fileID: 464318177}
   - component: {fileID: 464318176}
+  - component: {fileID: 464318179}
   m_Layer: 0
   m_Name: NAPNE
   m_TagString: Untagged
@@ -11304,6 +11590,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464318174}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &464318179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464318174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &464591464
 GameObject:
   m_ObjectHideFlags: 0
@@ -13039,6 +13339,7 @@ GameObject:
   - component: {fileID: 525158654}
   - component: {fileID: 525158653}
   - component: {fileID: 525158652}
+  - component: {fileID: 525158655}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -13119,6 +13420,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525158650}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &525158655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525158650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &526944090
 GameObject:
   m_ObjectHideFlags: 0
@@ -13381,6 +13696,7 @@ GameObject:
   - component: {fileID: 536807354}
   - component: {fileID: 536807353}
   - component: {fileID: 536807352}
+  - component: {fileID: 536807355}
   m_Layer: 0
   m_Name: LAB. BIOQUIMICA II
   m_TagString: Untagged
@@ -13461,6 +13777,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536807350}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &536807355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536807350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &538648770
 GameObject:
   m_ObjectHideFlags: 0
@@ -13978,6 +14308,7 @@ GameObject:
   - component: {fileID: 559141125}
   - component: {fileID: 559141124}
   - component: {fileID: 559141123}
+  - component: {fileID: 559141126}
   m_Layer: 0
   m_Name: COTUR
   m_TagString: Untagged
@@ -14058,6 +14389,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559141121}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &559141126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559141121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &561667976
 GameObject:
   m_ObjectHideFlags: 0
@@ -16747,6 +17092,7 @@ GameObject:
   - component: {fileID: 655518531}
   - component: {fileID: 655518530}
   - component: {fileID: 655518529}
+  - component: {fileID: 655518532}
   m_Layer: 0
   m_Name: COAE
   m_TagString: Untagged
@@ -16827,6 +17173,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655518527}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &655518532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655518527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &656186499
 GameObject:
   m_ObjectHideFlags: 0
@@ -17160,6 +17520,7 @@ GameObject:
   - component: {fileID: 669119742}
   - component: {fileID: 669119741}
   - component: {fileID: 669119740}
+  - component: {fileID: 669119743}
   m_Layer: 0
   m_Name: PISCINA
   m_TagString: Untagged
@@ -17240,6 +17601,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669119738}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &669119743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669119738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &672712224
 GameObject:
   m_ObjectHideFlags: 0
@@ -17503,6 +17878,7 @@ GameObject:
   - component: {fileID: 687104272}
   - component: {fileID: 687104271}
   - component: {fileID: 687104270}
+  - component: {fileID: 687104273}
   m_Layer: 0
   m_Name: 'LAB. DE TUTORIA  DEAD '
   m_TagString: Untagged
@@ -17583,6 +17959,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687104268}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &687104273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687104268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &688105634
 GameObject:
   m_ObjectHideFlags: 0
@@ -17595,6 +17985,7 @@ GameObject:
   - component: {fileID: 688105638}
   - component: {fileID: 688105637}
   - component: {fileID: 688105636}
+  - component: {fileID: 688105639}
   m_Layer: 0
   m_Name: BANHEIRO
   m_TagString: Untagged
@@ -17675,6 +18066,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688105634}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &688105639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688105634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &692194748
 GameObject:
   m_ObjectHideFlags: 0
@@ -18293,6 +18698,7 @@ GameObject:
   - component: {fileID: 712666501}
   - component: {fileID: 712666500}
   - component: {fileID: 712666499}
+  - component: {fileID: 712666502}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -18373,6 +18779,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712666497}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &712666502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712666497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &717801654
 GameObject:
   m_ObjectHideFlags: 0
@@ -18749,6 +19169,7 @@ GameObject:
   - component: {fileID: 736230247}
   - component: {fileID: 736230246}
   - component: {fileID: 736230245}
+  - component: {fileID: 736230248}
   m_Layer: 0
   m_Name: "LAB. DE M\xC1QUINAS ELETRICAS - DEINF "
   m_TagString: Untagged
@@ -18829,6 +19250,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736230243}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &736230248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736230243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &739434928
 GameObject:
   m_ObjectHideFlags: 0
@@ -18841,6 +19276,7 @@ GameObject:
   - component: {fileID: 739434932}
   - component: {fileID: 739434931}
   - component: {fileID: 739434930}
+  - component: {fileID: 739434933}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -18921,6 +19357,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 739434928}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &739434933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739434928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &739572696
 GameObject:
   m_ObjectHideFlags: 0
@@ -19517,6 +19967,7 @@ GameObject:
   - component: {fileID: 750316200}
   - component: {fileID: 750316199}
   - component: {fileID: 750316198}
+  - component: {fileID: 750316201}
   m_Layer: 0
   m_Name: DEGES
   m_TagString: Untagged
@@ -19597,6 +20048,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750316196}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &750316201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750316196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &752471886
 GameObject:
   m_ObjectHideFlags: 0
@@ -19990,6 +20455,7 @@ GameObject:
   - component: {fileID: 784939066}
   - component: {fileID: 784939065}
   - component: {fileID: 784939064}
+  - component: {fileID: 784939067}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -20070,6 +20536,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784939062}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &784939067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784939062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &785231835
 GameObject:
   m_ObjectHideFlags: 0
@@ -20585,6 +21065,7 @@ GameObject:
   - component: {fileID: 809906727}
   - component: {fileID: 809906726}
   - component: {fileID: 809906725}
+  - component: {fileID: 809906728}
   m_Layer: 0
   m_Name: LAB. FISICA
   m_TagString: Untagged
@@ -20665,6 +21146,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 809906723}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &809906728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809906723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &811243127
 GameObject:
   m_ObjectHideFlags: 0
@@ -21318,6 +21813,7 @@ GameObject:
   - component: {fileID: 828743510}
   - component: {fileID: 828743509}
   - component: {fileID: 828743508}
+  - component: {fileID: 828743511}
   m_Layer: 0
   m_Name: DERA
   m_TagString: Untagged
@@ -21398,6 +21894,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 828743506}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &828743511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828743506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &831077685
 GameObject:
   m_ObjectHideFlags: 0
@@ -21531,6 +22041,7 @@ GameObject:
   - component: {fileID: 837717455}
   - component: {fileID: 837717454}
   - component: {fileID: 837717453}
+  - component: {fileID: 837717456}
   m_Layer: 0
   m_Name: "VESTI\xC1RIO/BANHEIRO"
   m_TagString: Untagged
@@ -21611,6 +22122,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837717451}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &837717456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837717451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &844385432
 GameObject:
   m_ObjectHideFlags: 0
@@ -21625,8 +22150,10 @@ GameObject:
   - component: {fileID: 844385435}
   - component: {fileID: 844385434}
   - component: {fileID: 844385433}
+  - component: {fileID: 844385440}
+  - component: {fileID: 844385439}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Pessoa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21645,7 +22172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agenteNav: {fileID: 844385434}
-  alvo: {fileID: 1023565701}
+  alvo: {fileID: 1511131600}
 --- !u!195 &844385434
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -21656,7 +22183,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 30
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -21740,6 +22267,114 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &844385439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844385432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2337389f622257e49bb64f706374fba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentToDebug: {fileID: 844385434}
+--- !u!120 &844385440
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844385432}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
 --- !u!1 &847031697
 GameObject:
   m_ObjectHideFlags: 0
@@ -22164,6 +22799,7 @@ GameObject:
   - component: {fileID: 861367566}
   - component: {fileID: 861367565}
   - component: {fileID: 861367564}
+  - component: {fileID: 861367567}
   m_Layer: 0
   m_Name: "ch\xE3o (57)"
   m_TagString: Untagged
@@ -22244,6 +22880,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861367562}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &861367567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861367562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &864588374
 GameObject:
   m_ObjectHideFlags: 0
@@ -22711,6 +23361,7 @@ GameObject:
   - component: {fileID: 877411473}
   - component: {fileID: 877411472}
   - component: {fileID: 877411471}
+  - component: {fileID: 877411474}
   m_Layer: 0
   m_Name: BANHEIRO
   m_TagString: Untagged
@@ -22791,6 +23442,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877411469}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &877411474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877411469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &878069880
 GameObject:
   m_ObjectHideFlags: 0
@@ -22884,6 +23549,7 @@ GameObject:
   - component: {fileID: 885141117}
   - component: {fileID: 885141116}
   - component: {fileID: 885141115}
+  - component: {fileID: 885141118}
   m_Layer: 0
   m_Name: DIPESP
   m_TagString: Untagged
@@ -22964,6 +23630,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885141113}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &885141118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885141113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &885665233
 GameObject:
   m_ObjectHideFlags: 0
@@ -23316,6 +23996,7 @@ GameObject:
   - component: {fileID: 900413162}
   - component: {fileID: 900413161}
   - component: {fileID: 900413160}
+  - component: {fileID: 900413163}
   m_Layer: 0
   m_Name: SETOR DE TRANSPORTE
   m_TagString: Untagged
@@ -23396,6 +24077,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900413158}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &900413163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900413158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &901233272
 GameObject:
   m_ObjectHideFlags: 0
@@ -23906,6 +24601,7 @@ Transform:
   - {fileID: 1154884799}
   - {fileID: 1053932027}
   - {fileID: 1384174967}
+  - {fileID: 1511131600}
   m_Father: {fileID: 812531689}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24016,7 +24712,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916278205}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 927, y: 40, z: 873.9}
+  m_LocalPosition: {x: 313, y: 40, z: -478}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -24233,6 +24929,7 @@ GameObject:
   - component: {fileID: 940112946}
   - component: {fileID: 940112945}
   - component: {fileID: 940112944}
+  - component: {fileID: 940112947}
   m_Layer: 0
   m_Name: "LAB. INSTALA\xC7\xD5ES PREDIAIS - DEINF"
   m_TagString: Untagged
@@ -24313,6 +25010,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940112942}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &940112947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940112942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &942320664
 GameObject:
   m_ObjectHideFlags: 0
@@ -24919,6 +25630,7 @@ GameObject:
   - component: {fileID: 972131448}
   - component: {fileID: 972131447}
   - component: {fileID: 972131446}
+  - component: {fileID: 972131449}
   m_Layer: 0
   m_Name: GREMIO ESTUDANTIL
   m_TagString: Untagged
@@ -24999,6 +25711,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972131444}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &972131449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972131444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &978931813
 GameObject:
   m_ObjectHideFlags: 0
@@ -25496,6 +26222,7 @@ GameObject:
   - component: {fileID: 999726739}
   - component: {fileID: 999726738}
   - component: {fileID: 999726737}
+  - component: {fileID: 999726740}
   m_Layer: 0
   m_Name: LAB. SANEAMENTO AMBIENTAL
   m_TagString: Untagged
@@ -25576,6 +26303,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999726735}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &999726740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999726735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1000048245
 GameObject:
   m_ObjectHideFlags: 0
@@ -25940,6 +26681,7 @@ GameObject:
   - component: {fileID: 1014462123}
   - component: {fileID: 1014462122}
   - component: {fileID: 1014462121}
+  - component: {fileID: 1014462124}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -26020,6 +26762,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014462119}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1014462124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014462119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1017458902
 GameObject:
   m_ObjectHideFlags: 0
@@ -26032,6 +26788,7 @@ GameObject:
   - component: {fileID: 1017458905}
   - component: {fileID: 1017458904}
   - component: {fileID: 1017458903}
+  - component: {fileID: 1017458907}
   m_Layer: 0
   m_Name: DIRETORIA  DO DEPLAN
   m_TagString: Untagged
@@ -26112,6 +26869,20 @@ Transform:
   m_Father: {fileID: 911305032}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1017458907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017458902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1017983925
 GameObject:
   m_ObjectHideFlags: 0
@@ -26214,6 +26985,7 @@ GameObject:
   - component: {fileID: 1023565700}
   - component: {fileID: 1023565699}
   - component: {fileID: 1023565698}
+  - component: {fileID: 1023565702}
   m_Layer: 0
   m_Name: 'CEAEG '
   m_TagString: Untagged
@@ -26294,6 +27066,20 @@ Transform:
   m_Father: {fileID: 911305032}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1023565702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023565697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1028281886
 GameObject:
   m_ObjectHideFlags: 0
@@ -26876,6 +27662,7 @@ GameObject:
   - component: {fileID: 1053932030}
   - component: {fileID: 1053932029}
   - component: {fileID: 1053932028}
+  - component: {fileID: 1053932031}
   m_Layer: 0
   m_Name: "LAB. DE PESQUISA E  INOVA\xC7\xC3O TECNOL\xD3GICA "
   m_TagString: Untagged
@@ -26956,6 +27743,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053932026}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1053932031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053932026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1056457814
 GameObject:
   m_ObjectHideFlags: 0
@@ -27925,6 +28726,7 @@ GameObject:
   - component: {fileID: 1096258802}
   - component: {fileID: 1096258801}
   - component: {fileID: 1096258800}
+  - component: {fileID: 1096258803}
   m_Layer: 0
   m_Name: "ch\xE3o (58)"
   m_TagString: Untagged
@@ -28005,6 +28807,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096258798}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1096258803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096258798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1106324777
 GameObject:
   m_ObjectHideFlags: 0
@@ -28756,6 +29572,7 @@ GameObject:
   - component: {fileID: 1139169592}
   - component: {fileID: 1139169591}
   - component: {fileID: 1139169590}
+  - component: {fileID: 1139169593}
   m_Layer: 0
   m_Name: "COORDENA\xC7\xC3O  DE LAB. DE  ELETROELETRONICA"
   m_TagString: Untagged
@@ -28836,6 +29653,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1139169588}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1139169593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139169588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1151662324
 GameObject:
   m_ObjectHideFlags: 0
@@ -28939,6 +29770,7 @@ GameObject:
   - component: {fileID: 1153499591}
   - component: {fileID: 1153499590}
   - component: {fileID: 1153499589}
+  - component: {fileID: 1153499592}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -29019,6 +29851,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153499587}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1153499592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153499587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1154018684
 GameObject:
   m_ObjectHideFlags: 0
@@ -29031,6 +29877,7 @@ GameObject:
   - component: {fileID: 1154018688}
   - component: {fileID: 1154018687}
   - component: {fileID: 1154018686}
+  - component: {fileID: 1154018689}
   m_Layer: 0
   m_Name: "SALA DE REUNI\xD5ES"
   m_TagString: Untagged
@@ -29111,6 +29958,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154018684}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1154018689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154018684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1154884798
 GameObject:
   m_ObjectHideFlags: 0
@@ -29123,6 +29984,7 @@ GameObject:
   - component: {fileID: 1154884802}
   - component: {fileID: 1154884801}
   - component: {fileID: 1154884800}
+  - component: {fileID: 1154884803}
   m_Layer: 0
   m_Name: LAB. DE CARTOGRAFIA
   m_TagString: Untagged
@@ -29203,6 +30065,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154884798}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1154884803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154884798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1156050399
 GameObject:
   m_ObjectHideFlags: 0
@@ -30954,6 +31830,7 @@ GameObject:
   - component: {fileID: 1255704955}
   - component: {fileID: 1255704954}
   - component: {fileID: 1255704953}
+  - component: {fileID: 1255704956}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -31034,6 +31911,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255704951}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1255704956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255704951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1255874266
 GameObject:
   m_ObjectHideFlags: 0
@@ -32938,6 +33829,7 @@ GameObject:
   - component: {fileID: 1322735683}
   - component: {fileID: 1322735682}
   - component: {fileID: 1322735681}
+  - component: {fileID: 1322735684}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -33018,6 +33910,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322735679}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1322735684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322735679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1323813468
 GameObject:
   m_ObjectHideFlags: 0
@@ -33351,6 +34257,7 @@ GameObject:
   - component: {fileID: 1335037197}
   - component: {fileID: 1335037196}
   - component: {fileID: 1335037195}
+  - component: {fileID: 1335037198}
   m_Layer: 0
   m_Name: "LAB. INFORM\xC1TICA"
   m_TagString: Untagged
@@ -33431,6 +34338,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335037193}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1335037198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335037193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1345573175
 GameObject:
   m_ObjectHideFlags: 0
@@ -34462,6 +35383,7 @@ GameObject:
   - component: {fileID: 1363189079}
   - component: {fileID: 1363189078}
   - component: {fileID: 1363189077}
+  - component: {fileID: 1363189080}
   m_Layer: 0
   m_Name: SALA DE DESENHO
   m_TagString: Untagged
@@ -34542,6 +35464,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1363189075}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1363189080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363189075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1365732549
 GameObject:
   m_ObjectHideFlags: 0
@@ -34964,6 +35900,7 @@ GameObject:
   - component: {fileID: 1384174970}
   - component: {fileID: 1384174969}
   - component: {fileID: 1384174968}
+  - component: {fileID: 1384174971}
   m_Layer: 0
   m_Name: DIREN - 108
   m_TagString: Untagged
@@ -35044,6 +35981,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1384174966}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1384174971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384174966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1387551954
 GameObject:
   m_ObjectHideFlags: 0
@@ -36204,6 +37155,7 @@ GameObject:
   - component: {fileID: 1421782546}
   - component: {fileID: 1421782545}
   - component: {fileID: 1421782544}
+  - component: {fileID: 1421782547}
   m_Layer: 0
   m_Name: LAB. BIOQUIMICA I
   m_TagString: Untagged
@@ -36284,6 +37236,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421782542}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1421782547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421782542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1422603199
 GameObject:
   m_ObjectHideFlags: 0
@@ -36981,6 +37947,7 @@ GameObject:
   - component: {fileID: 1444144911}
   - component: {fileID: 1444144910}
   - component: {fileID: 1444144909}
+  - component: {fileID: 1444144912}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -37061,6 +38028,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1444144907}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1444144912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444144907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1447177203
 GameObject:
   m_ObjectHideFlags: 0
@@ -37182,6 +38163,7 @@ GameObject:
   - component: {fileID: 1450203733}
   - component: {fileID: 1450203732}
   - component: {fileID: 1450203731}
+  - component: {fileID: 1450203734}
   m_Layer: 0
   m_Name: TELEFONISTA
   m_TagString: Untagged
@@ -37262,6 +38244,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1450203729}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1450203734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450203729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1452560345
 GameObject:
   m_ObjectHideFlags: 0
@@ -37274,6 +38270,7 @@ GameObject:
   - component: {fileID: 1452560349}
   - component: {fileID: 1452560348}
   - component: {fileID: 1452560347}
+  - component: {fileID: 1452560350}
   m_Layer: 0
   m_Name: 'BANHEIROS '
   m_TagString: Untagged
@@ -37354,6 +38351,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452560345}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1452560350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452560345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1458076341
 GameObject:
   m_ObjectHideFlags: 0
@@ -37687,6 +38698,7 @@ GameObject:
   - component: {fileID: 1464845028}
   - component: {fileID: 1464845027}
   - component: {fileID: 1464845026}
+  - component: {fileID: 1464845029}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -37767,6 +38779,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464845024}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1464845029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464845024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1465140125
 GameObject:
   m_ObjectHideFlags: 0
@@ -39277,6 +40303,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508328509}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1511131599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1511131600}
+  m_Layer: 0
+  m_Name: Entrada
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1511131600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511131599}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 499.3, y: 0.5, z: -597}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 911305032}
+  m_RootOrder: 101
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1511957523
 GameObject:
   m_ObjectHideFlags: 0
@@ -39774,6 +40830,7 @@ GameObject:
   - component: {fileID: 1522134378}
   - component: {fileID: 1522134377}
   - component: {fileID: 1522134376}
+  - component: {fileID: 1522134379}
   m_Layer: 0
   m_Name: ESCADAS
   m_TagString: Untagged
@@ -39854,6 +40911,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522134374}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1522134379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522134374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1522721720
 GameObject:
   m_ObjectHideFlags: 0
@@ -40905,6 +41976,7 @@ GameObject:
   - component: {fileID: 1562666892}
   - component: {fileID: 1562666891}
   - component: {fileID: 1562666890}
+  - component: {fileID: 1562666893}
   m_Layer: 0
   m_Name: XEROX
   m_TagString: Untagged
@@ -40985,6 +42057,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562666888}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1562666893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562666888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1565200695
 GameObject:
   m_ObjectHideFlags: 0
@@ -41300,6 +42386,7 @@ GameObject:
   - component: {fileID: 1574194932}
   - component: {fileID: 1574194931}
   - component: {fileID: 1574194930}
+  - component: {fileID: 1574194933}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -41380,6 +42467,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574194928}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1574194933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574194928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1575506512
 GameObject:
   m_ObjectHideFlags: 0
@@ -41665,6 +42766,7 @@ GameObject:
   - component: {fileID: 1580548413}
   - component: {fileID: 1580548412}
   - component: {fileID: 1580548411}
+  - component: {fileID: 1580548414}
   m_Layer: 0
   m_Name: "\xC1REA DE CONVIV\xCANCIA"
   m_TagString: Untagged
@@ -41745,6 +42847,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580548409}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1580548414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580548409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1582399541
 GameObject:
   m_ObjectHideFlags: 0
@@ -42151,6 +43267,7 @@ GameObject:
   - component: {fileID: 1593178299}
   - component: {fileID: 1593178298}
   - component: {fileID: 1593178297}
+  - component: {fileID: 1593178300}
   m_Layer: 0
   m_Name: 'SALA DOS PROFESSORES '
   m_TagString: Untagged
@@ -42231,6 +43348,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593178295}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1593178300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593178295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1595833238
 GameObject:
   m_ObjectHideFlags: 0
@@ -42425,6 +43556,7 @@ GameObject:
   - component: {fileID: 1603123056}
   - component: {fileID: 1603123055}
   - component: {fileID: 1603123054}
+  - component: {fileID: 1603123057}
   m_Layer: 0
   m_Name: "ch\xE3o (67)"
   m_TagString: Untagged
@@ -42505,6 +43637,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603123052}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1603123057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603123052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1604884253
 GameObject:
   m_ObjectHideFlags: 0
@@ -42778,6 +43924,7 @@ GameObject:
   - component: {fileID: 1608597589}
   - component: {fileID: 1608597588}
   - component: {fileID: 1608597587}
+  - component: {fileID: 1608597590}
   m_Layer: 0
   m_Name: "DEPARTAMENTO DE ENSINO E GRADUA\xC7\xC3O"
   m_TagString: Untagged
@@ -42858,6 +44005,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608597585}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1608597590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608597585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1609130323
 GameObject:
   m_ObjectHideFlags: 0
@@ -43671,6 +44832,7 @@ GameObject:
   - component: {fileID: 1631897903}
   - component: {fileID: 1631897902}
   - component: {fileID: 1631897901}
+  - component: {fileID: 1631897904}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -43751,6 +44913,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631897899}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1631897904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631897899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1632076260
 GameObject:
   m_ObjectHideFlags: 0
@@ -44036,6 +45212,7 @@ GameObject:
   - component: {fileID: 1635887709}
   - component: {fileID: 1635887708}
   - component: {fileID: 1635887707}
+  - component: {fileID: 1635887710}
   m_Layer: 0
   m_Name: GINASIO
   m_TagString: Untagged
@@ -44116,6 +45293,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635887705}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1635887710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635887705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1637714503
 GameObject:
   m_ObjectHideFlags: 0
@@ -44977,6 +46168,7 @@ GameObject:
   - component: {fileID: 1675018149}
   - component: {fileID: 1675018148}
   - component: {fileID: 1675018147}
+  - component: {fileID: 1675018150}
   m_Layer: 0
   m_Name: "LAB. MATEM\xC1TICA"
   m_TagString: Untagged
@@ -45057,6 +46249,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675018145}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1675018150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675018145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1676637076
 GameObject:
   m_ObjectHideFlags: 0
@@ -45342,6 +46548,7 @@ GameObject:
   - component: {fileID: 1678911865}
   - component: {fileID: 1678911864}
   - component: {fileID: 1678911863}
+  - component: {fileID: 1678911866}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -45422,6 +46629,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1678911861}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1678911866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678911861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1680234472
 GameObject:
   m_ObjectHideFlags: 0
@@ -45786,6 +47007,7 @@ GameObject:
   - component: {fileID: 1697673111}
   - component: {fileID: 1697673110}
   - component: {fileID: 1697673109}
+  - component: {fileID: 1697673112}
   m_Layer: 0
   m_Name: PAFOR
   m_TagString: Untagged
@@ -45866,6 +47088,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697673107}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1697673112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697673107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1700204687
 GameObject:
   m_ObjectHideFlags: 0
@@ -45878,6 +47114,7 @@ GameObject:
   - component: {fileID: 1700204690}
   - component: {fileID: 1700204689}
   - component: {fileID: 1700204688}
+  - component: {fileID: 1700204692}
   m_Layer: 0
   m_Name: "COORD. DE  PROJETOS DE  EXTENS\xC3O "
   m_TagString: Untagged
@@ -45958,6 +47195,20 @@ Transform:
   m_Father: {fileID: 911305032}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1700204692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700204687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1705219480
 GameObject:
   m_ObjectHideFlags: 0
@@ -46637,6 +47888,7 @@ GameObject:
   - component: {fileID: 1725829197}
   - component: {fileID: 1725829196}
   - component: {fileID: 1725829195}
+  - component: {fileID: 1725829198}
   m_Layer: 0
   m_Name: "LAB. DE ELETR\xD4NICA - DEINF "
   m_TagString: Untagged
@@ -46717,6 +47969,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725829193}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1725829198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725829193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1726118772
 GameObject:
   m_ObjectHideFlags: 0
@@ -47289,6 +48555,7 @@ GameObject:
   - component: {fileID: 1744135423}
   - component: {fileID: 1744135422}
   - component: {fileID: 1744135421}
+  - component: {fileID: 1744135424}
   m_Layer: 0
   m_Name: "LAB. DE ELETR\xD4NICA E  COMANDOS EL\xC9TRICOS"
   m_TagString: Untagged
@@ -47369,6 +48636,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744135419}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1744135424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744135419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1745820579
 GameObject:
   m_ObjectHideFlags: 0
@@ -47381,6 +48662,7 @@ GameObject:
   - component: {fileID: 1745820583}
   - component: {fileID: 1745820582}
   - component: {fileID: 1745820581}
+  - component: {fileID: 1745820584}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -47461,6 +48743,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745820579}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1745820584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745820579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1750066853
 GameObject:
   m_ObjectHideFlags: 0
@@ -47867,6 +49163,7 @@ GameObject:
   - component: {fileID: 1759800982}
   - component: {fileID: 1759800981}
   - component: {fileID: 1759800980}
+  - component: {fileID: 1759800983}
   m_Layer: 0
   m_Name: DIPESP1
   m_TagString: Untagged
@@ -47947,6 +49244,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759800978}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1759800983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759800978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1761530608
 GameObject:
   m_ObjectHideFlags: 0
@@ -48931,6 +50242,7 @@ GameObject:
   - component: {fileID: 1804702805}
   - component: {fileID: 1804702804}
   - component: {fileID: 1804702803}
+  - component: {fileID: 1804702806}
   m_Layer: 0
   m_Name: "LAB. DE PESQUISA E  INOVA\xC7\xC3O TECNOL\xD3GICA "
   m_TagString: Untagged
@@ -49011,6 +50323,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1804702801}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1804702806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804702801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1805893102
 GameObject:
   m_ObjectHideFlags: 0
@@ -49587,6 +50913,7 @@ GameObject:
   - component: {fileID: 1818121994}
   - component: {fileID: 1818121993}
   - component: {fileID: 1818121992}
+  - component: {fileID: 1818121995}
   m_Layer: 0
   m_Name: CPA/NEABI
   m_TagString: Untagged
@@ -49667,6 +50994,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818121990}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1818121995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818121990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1825183581
 GameObject:
   m_ObjectHideFlags: 0
@@ -50219,6 +51560,7 @@ GameObject:
   - component: {fileID: 1845118391}
   - component: {fileID: 1845118390}
   - component: {fileID: 1845118389}
+  - component: {fileID: 1845118392}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -50299,6 +51641,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1845118387}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1845118392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845118387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1848798878
 GameObject:
   m_ObjectHideFlags: 0
@@ -50947,6 +52303,7 @@ GameObject:
   - component: {fileID: 1870086621}
   - component: {fileID: 1870086620}
   - component: {fileID: 1870086619}
+  - component: {fileID: 1870086622}
   m_Layer: 0
   m_Name: CPPVS
   m_TagString: Untagged
@@ -51027,6 +52384,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870086617}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1870086622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870086617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1874120560
 GameObject:
   m_ObjectHideFlags: 0
@@ -51039,6 +52410,7 @@ GameObject:
   - component: {fileID: 1874120564}
   - component: {fileID: 1874120563}
   - component: {fileID: 1874120562}
+  - component: {fileID: 1874120565}
   m_Layer: 0
   m_Name: "LAB. MATERIAIS DE CONSTRU\xC7\xC3O  E MEC\xC2NICA DOS SOLOS - DEINF "
   m_TagString: Untagged
@@ -51119,6 +52491,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1874120560}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1874120565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874120560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1875011933
 GameObject:
   m_ObjectHideFlags: 0
@@ -51483,6 +52869,7 @@ GameObject:
   - component: {fileID: 1878581257}
   - component: {fileID: 1878581256}
   - component: {fileID: 1878581255}
+  - component: {fileID: 1878581258}
   m_Layer: 0
   m_Name: SALA  DE PESQUISA
   m_TagString: Untagged
@@ -51563,6 +52950,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878581253}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1878581258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878581253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1885080051
 GameObject:
   m_ObjectHideFlags: 0
@@ -51575,6 +52976,7 @@ GameObject:
   - component: {fileID: 1885080054}
   - component: {fileID: 1885080053}
   - component: {fileID: 1885080052}
+  - component: {fileID: 1885080056}
   m_Layer: 0
   m_Name: 'DIREX '
   m_TagString: Untagged
@@ -51655,6 +53057,20 @@ Transform:
   m_Father: {fileID: 911305032}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1885080056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885080051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1885448291
 GameObject:
   m_ObjectHideFlags: 0
@@ -51788,6 +53204,7 @@ GameObject:
   - component: {fileID: 1886929834}
   - component: {fileID: 1886929833}
   - component: {fileID: 1886929832}
+  - component: {fileID: 1886929836}
   m_Layer: 0
   m_Name: PRONATEC
   m_TagString: Untagged
@@ -51868,6 +53285,20 @@ Transform:
   m_Father: {fileID: 911305032}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1886929836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886929831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1887003862
 GameObject:
   m_ObjectHideFlags: 0
@@ -52062,6 +53493,7 @@ GameObject:
   - component: {fileID: 1892239198}
   - component: {fileID: 1892239197}
   - component: {fileID: 1892239196}
+  - component: {fileID: 1892239200}
   m_Layer: 0
   m_Name: CONFIN
   m_TagString: Untagged
@@ -52142,6 +53574,20 @@ Transform:
   m_Father: {fileID: 911305032}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1892239200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892239195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1892299138
 GameObject:
   m_ObjectHideFlags: 0
@@ -52154,6 +53600,7 @@ GameObject:
   - component: {fileID: 1892299142}
   - component: {fileID: 1892299141}
   - component: {fileID: 1892299140}
+  - component: {fileID: 1892299143}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -52234,6 +53681,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892299138}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1892299143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892299138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1896890791
 GameObject:
   m_ObjectHideFlags: 0
@@ -52913,6 +54374,7 @@ GameObject:
   - component: {fileID: 1912873295}
   - component: {fileID: 1912873294}
   - component: {fileID: 1912873293}
+  - component: {fileID: 1912873296}
   m_Layer: 0
   m_Name: DIPESP2
   m_TagString: Untagged
@@ -52993,6 +54455,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912873291}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1912873296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912873291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1921549949
 GameObject:
   m_ObjectHideFlags: 0
@@ -53278,6 +54754,7 @@ GameObject:
   - component: {fileID: 1942668912}
   - component: {fileID: 1942668911}
   - component: {fileID: 1942668910}
+  - component: {fileID: 1942668913}
   m_Layer: 0
   m_Name: BANHEIRO
   m_TagString: Untagged
@@ -53358,6 +54835,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942668908}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1942668913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942668908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &1944789237
 GameObject:
   m_ObjectHideFlags: 0
@@ -56097,6 +57588,7 @@ GameObject:
   - component: {fileID: 2050811710}
   - component: {fileID: 2050811709}
   - component: {fileID: 2050811708}
+  - component: {fileID: 2050811711}
   m_Layer: 0
   m_Name: CPA
   m_TagString: Untagged
@@ -56177,6 +57669,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050811706}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2050811711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050811706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &2055666578
 GameObject:
   m_ObjectHideFlags: 0
@@ -56310,6 +57816,7 @@ GameObject:
   - component: {fileID: 2058718071}
   - component: {fileID: 2058718070}
   - component: {fileID: 2058718069}
+  - component: {fileID: 2058718072}
   m_Layer: 0
   m_Name: SALA  DE  INFORMATICA
   m_TagString: Untagged
@@ -56390,6 +57897,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058718067}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2058718072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058718067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &2058802856
 GameObject:
   m_ObjectHideFlags: 0
@@ -56481,6 +58002,7 @@ GameObject:
   - component: {fileID: 2061346845}
   - component: {fileID: 2061346844}
   - component: {fileID: 2061346843}
+  - component: {fileID: 2061346846}
   m_Layer: 0
   m_Name: SALA DE AULA
   m_TagString: Untagged
@@ -56561,6 +58083,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061346841}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2061346846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061346841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &2062169569
 GameObject:
   m_ObjectHideFlags: 0
@@ -56684,6 +58220,7 @@ GameObject:
   - component: {fileID: 2075589516}
   - component: {fileID: 2075589515}
   - component: {fileID: 2075589514}
+  - component: {fileID: 2075589517}
   m_Layer: 0
   m_Name: 'GABINETE DO DIRETOR '
   m_TagString: Untagged
@@ -56764,6 +58301,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075589512}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2075589517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075589512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &2076237224
 GameObject:
   m_ObjectHideFlags: 0
@@ -57352,6 +58903,7 @@ GameObject:
   - component: {fileID: 2097041363}
   - component: {fileID: 2097041362}
   - component: {fileID: 2097041361}
+  - component: {fileID: 2097041364}
   m_Layer: 0
   m_Name: ACADEMIA
   m_TagString: Untagged
@@ -57432,6 +58984,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097041359}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2097041364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097041359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &2100004946
 GameObject:
   m_ObjectHideFlags: 0
@@ -57826,6 +59392,7 @@ GameObject:
   - component: {fileID: 2107600751}
   - component: {fileID: 2107600750}
   - component: {fileID: 2107600749}
+  - component: {fileID: 2107600752}
   m_Layer: 0
   m_Name: CTI
   m_TagString: Untagged
@@ -57906,6 +59473,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107600747}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2107600752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107600747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &2108515806
 GameObject:
   m_ObjectHideFlags: 0
@@ -58282,6 +59863,7 @@ GameObject:
   - component: {fileID: 2123386430}
   - component: {fileID: 2123386429}
   - component: {fileID: 2123386428}
+  - component: {fileID: 2123386431}
   m_Layer: 0
   m_Name: "DEP\xD3SITO "
   m_TagString: Untagged
@@ -58362,6 +59944,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123386426}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2123386431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123386426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &2123579379
 GameObject:
   m_ObjectHideFlags: 0
@@ -58647,6 +60243,7 @@ GameObject:
   - component: {fileID: 2128155589}
   - component: {fileID: 2128155588}
   - component: {fileID: 2128155587}
+  - component: {fileID: 2128155591}
   m_Layer: 0
   m_Name: DEPLAN
   m_TagString: Untagged
@@ -58727,6 +60324,20 @@ Transform:
   m_Father: {fileID: 911305032}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2128155591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128155586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9995356cb683a479f36463a5fd7607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 844385432}
+  esseAlvo: {fileID: 0}
 --- !u!1 &2137895098
 GameObject:
   m_ObjectHideFlags: 0
