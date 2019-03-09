@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/login.unity
-    guid: 364f74234aa74e848afb7545c4a0c3b0
-  - enabled: 1
-    path: Assets/Scenes/MapaIFRR.unity
-    guid: 708211cbdba577d429a84d8e4e9227f4
+    path: Assets/Scenes/4mapa com plant- nomes e cores  - configurando camera.unity
+    guid: 372263f77384bdb458909edfbd53c1f1
   m_configObjects: {}
