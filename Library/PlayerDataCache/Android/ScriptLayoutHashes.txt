@@ -1,9 +1,10 @@
 Android
 PlayerPath?
-C:/Users/Minato2/Desktop/tcc1.0.apk
+C:/Users/Minato2/Desktop/tcc5.0.apk
 SceneListBegin?
-Assets/Scenes/4mapa com plant- nomes e cores  - configurando camera.unity
+Assets/Scenes/5mapa com plant- nomes e cores  - configurando leitor e teste de posições.unity
 SceneListEnd?
+8df7463d44396aef071f25f07dbff8f3 Assembly-CSharp.dll:.PanZoom
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 01aa15e337e3a9c62f15153dfac6d589 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -189,7 +190,7 @@ cd67f3e1e9ccac6db86c1564cea5a827 Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-5759df30cb4654bb927dc63cf158ff3a Assembly-CSharp.dll:.LeitorQR1
+65567e79dc546bd11cdd5000bd137eeb Assembly-CSharp.dll:.LeitorQR1
 6e1b13701a5000b2785cdb72dc062623 Assembly-CSharp.dll:.testandoCamera
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 abe2945d5875a53610b8774fbb6a7a5c Assembly-CSharp.dll:.scriptMovimento
@@ -308,4 +309,3 @@ cd67f3e1e9ccac6db86c1564cea5a827 Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-8df7463d44396aef071f25f07dbff8f3 Assembly-CSharp.dll:.PanZoom
