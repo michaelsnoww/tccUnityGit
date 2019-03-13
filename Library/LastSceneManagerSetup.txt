@@ -1,5 +1,4 @@
 sceneSetups:
-- path: "Assets/Scenes/5mapa com plant- nomes e cores  - configurando leitor e teste
-    de posi\xE7\xF5es.unity"
+- path: Assets/Scenes/6mapa com plant- nomes e cores  - testando duplo clique.unity
   isLoaded: 1
   isActive: 1

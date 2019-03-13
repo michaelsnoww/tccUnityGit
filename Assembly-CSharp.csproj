@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CameraController.cs" />
+    <Compile Include="Assets\ConfigurarMenu.cs" />
     <Compile Include="Assets\LeitorQR.cs" />
     <Compile Include="Assets\LoginController.cs" />
     <Compile Include="Assets\Scenes\testeCamera.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets\scripts\selecionarDestino.cs" />
     <Compile Include="Assets\scripts\testandoCamera.cs" />
     <Compile Include="Assets\scripts\TestandoZoom.cs" />
+    <Compile Include="Assets\SelecionarRota.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Minato2/Documents/GitHub/tccUnitygit/tccUnityGit/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

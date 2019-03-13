@@ -6,7 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: "Assets/Scenes/5mapa com plant- nomes e cores  - configurando leitor e teste
-      de posi\xE7\xF5es.unity"
-    guid: bc74d46079a9d6d429e558824b4aa94d
+    path: Assets/Scenes/6mapa com plant- nomes e cores  - testando duplo clique.unity
+    guid: dd9536125ddd1224ba0ba392ab41fcec
   m_configObjects: {}

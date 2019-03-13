@@ -220,260 +220,260 @@ public class LeitorQR1 : MonoBehaviour {
         }
         else if (resultado[0] == 'E' || resultado[0] == 'e')
         {
-            if (resultado[1] == 0)
+            if (resultado[1] == '0')
             {
-
+                transformAtual.position = E[0].position;
             }
-            else if (resultado[1] == 1)
+            else if (resultado[1] == '1')
             {
-
+                transformAtual.position = E[1].position;
             }
-            else if (resultado[1] == 2)
+            else if (resultado[1] == '2')
             {
-
+                transformAtual.position = E[2].position;
             }
-            else if (resultado[1] == 3)
+            else if (resultado[1] == '3')
             {
-
+                transformAtual.position = E[3].position;
             }
-            else if (resultado[1] == 4)
+            else if (resultado[1] == '4')
             {
-
+                transformAtual.position = E[4].position;
             }
-            else if (resultado[1] == 5)
+            else if (resultado[1] == '5')
             {
-
+                transformAtual.position = E[5].position;
             }
-            else if (resultado[1] == 6)
+            else if (resultado[1] == '6')
             {
-
+                transformAtual.position = E[6].position;
             }
-            else if (resultado[1] == 7)
+            else if (resultado[1] == '7')
             {
-
+                transformAtual.position = E[7].position;
             }
-            else if (resultado[1] == 8)
+            else if (resultado[1] == '8')
             {
-
+                transformAtual.position = E[8].position;
             }
-            else if (resultado[1] == 9)
+            else if (resultado[1] == '9')
             {
-
+                transformAtual.position = E[9].position;
             }
         }
         else if (resultado[0] == 'F' || resultado[0] == 'f')
         {
-            if (resultado[1] == 0)
+            if (resultado[1] == '0')
             {
-
+                transformAtual.position = F[0].position;
             }
-            else if (resultado[1] == 1)
+            else if (resultado[1] == '1')
             {
-
+                transformAtual.position = F[1].position;
             }
-            else if (resultado[1] == 2)
+            else if (resultado[1] == '2')
             {
-
+                transformAtual.position = F[2].position;
             }
-            else if (resultado[1] == 3)
+            else if (resultado[1] == '3')
             {
-
+                transformAtual.position = F[3].position;
             }
-            else if (resultado[1] == 4)
+            else if (resultado[1] == '4')
             {
-
+                transformAtual.position = F[4].position;
             }
-            else if (resultado[1] == 5)
+            else if (resultado[1] == '5')
             {
-
+                transformAtual.position = F[5].position;
             }
-            else if (resultado[1] == 6)
+            else if (resultado[1] == '6')
             {
-
+                transformAtual.position = F[6].position;
             }
-            else if (resultado[1] == 7)
+            else if (resultado[1] == '7')
             {
-
+                transformAtual.position = F[7].position;
             }
-            else if (resultado[1] == 8)
+            else if (resultado[1] == '8')
             {
-
+                transformAtual.position = F[8].position;
             }
-            else if (resultado[1] == 9)
+            else if (resultado[1] == '9')
             {
-
+                transformAtual.position = F[9].position;
             }
         }
         else if (resultado[0] == 'G' || resultado[0] == 'g')
         {
-            if (resultado[1] == 0)
+            if (resultado[1] == '0')
             {
-
+                transformAtual.position = G[0].position;
             }
-            else if (resultado[1] == 1)
+            else if (resultado[1] == '1')
             {
-
+                transformAtual.position = G[1].position;
             }
-            else if (resultado[1] == 2)
+            else if (resultado[1] == '2')
             {
-
+                transformAtual.position = G[2].position;
             }
-            else if (resultado[1] == 3)
+            else if (resultado[1] == '3')
             {
-
+                transformAtual.position = G[3].position;
             }
-            else if (resultado[1] == 4)
+            else if (resultado[1] == '4')
             {
-
+                transformAtual.position = G[4].position;
             }
-            else if (resultado[1] == 5)
+            else if (resultado[1] == '5')
             {
-
+                transformAtual.position = G[5].position;
             }
-            else if (resultado[1] == 6)
+            else if (resultado[1] == '6')
             {
-
+                transformAtual.position = G[6].position;
             }
-            else if (resultado[1] == 7)
+            else if (resultado[1] == '7')
             {
-
+                transformAtual.position = G[7].position;
             }
-            else if (resultado[1] == 8)
+            else if (resultado[1] == '8')
             {
-
+                transformAtual.position = G[8].position;
             }
-            else if (resultado[1] == 9)
+            else if (resultado[1] == '9')
             {
-
+                transformAtual.position = G[9].position;
             }
         }
         else if (resultado[0] == 'H' || resultado[0] == 'h')
         {
-            if (resultado[1] == 0)
+            if (resultado[1] == '0')
             {
-
+                transformAtual.position = H[0].position;
             }
-            else if (resultado[1] == 1)
+            else if (resultado[1] == '1')
             {
-
+                transformAtual.position = H[1].position;
             }
-            else if (resultado[1] == 2)
+            else if (resultado[1] == '2')
             {
-
+                transformAtual.position = H[2].position;
             }
-            else if (resultado[1] == 3)
+            else if (resultado[1] == '3')
             {
-
+                transformAtual.position = H[3].position;
             }
-            else if (resultado[1] == 4)
+            else if (resultado[1] == '4')
             {
-
+                transformAtual.position = H[4].position;
             }
-            else if (resultado[1] == 5)
+            else if (resultado[1] == '5')
             {
-
+                transformAtual.position = H[5].position;
             }
-            else if (resultado[1] == 6)
+            else if (resultado[1] == '6')
             {
-
+                transformAtual.position = H[6].position;
             }
-            else if (resultado[1] == 7)
+            else if (resultado[1] == '7')
             {
-
+                transformAtual.position = H[7].position;
             }
-            else if (resultado[1] == 8)
+            else if (resultado[1] == '8')
             {
-
+                transformAtual.position = H[8].position;
             }
-            else if (resultado[1] == 9)
+            else if (resultado[1] == '9')
             {
-
+                transformAtual.position = H[9].position;
             }
         }
         else if (resultado[0] == 'I' || resultado[0] == 'i')
         {
-            if (resultado[1] == 0)
+            if (resultado[1] == '0')
             {
-
+                transformAtual.position = I[0].position;
             }
-            else if (resultado[1] == 1)
+            else if (resultado[1] == '1')
             {
-
+                transformAtual.position = I[1].position;
             }
-            else if (resultado[1] == 2)
+            else if (resultado[1] == '2')
             {
-
+                transformAtual.position = I[2].position;
             }
-            else if (resultado[1] == 3)
+            else if (resultado[1] == '3')
             {
-
+                transformAtual.position = I[3].position;
             }
-            else if (resultado[1] == 4)
+            else if (resultado[1] == '4')
             {
-
+                transformAtual.position = I[4].position;
             }
-            else if (resultado[1] == 5)
+            else if (resultado[1] == '5')
             {
-
+                transformAtual.position = I[5].position;
             }
-            else if (resultado[1] == 6)
+            else if (resultado[1] == '6')
             {
-
+                transformAtual.position = I[6].position;
             }
-            else if (resultado[1] == 7)
+            else if (resultado[1] == '7')
             {
-
+                transformAtual.position = I[7].position;
             }
-            else if (resultado[1] == 8)
+            else if (resultado[1] == '8')
             {
-
+                transformAtual.position = I[8].position;
             }
-            else if (resultado[1] == 9)
+            else if (resultado[1] == '9')
             {
-
+                transformAtual.position = I[9].position;
             }
         }
         else if (resultado[0] == 'J' || resultado[0] == 'j')
         {
-            if (resultado[1] == 0)
+            if (resultado[1] == '0')
             {
-
+                transformAtual.position = J[0].position;
             }
-            else if (resultado[1] == 1)
+            else if (resultado[1] == '1')
             {
-
+                transformAtual.position = J[1].position;
             }
-            else if (resultado[1] == 2)
+            else if (resultado[1] == '2')
             {
-
+                transformAtual.position = J[2].position;
             }
-            else if (resultado[1] == 3)
+            else if (resultado[1] == '3')
             {
-
+                transformAtual.position = J[3].position;
             }
-            else if (resultado[1] == 4)
+            else if (resultado[1] == '4')
             {
-
+                transformAtual.position = J[4].position;
             }
-            else if (resultado[1] == 5)
+            else if (resultado[1] == '5')
             {
-
+                transformAtual.position = J[5].position;
             }
-            else if (resultado[1] == 6)
+            else if (resultado[1] == '6')
             {
-
+                transformAtual.position = J[6].position;
             }
-            else if (resultado[1] == 7)
+            else if (resultado[1] == '7')
             {
-
+                transformAtual.position = J[7].position;
             }
-            else if (resultado[1] == 8)
+            else if (resultado[1] == '8')
             {
-
+                transformAtual.position = J[8].position;
             }
-            else if (resultado[1] == 9)
+            else if (resultado[1] == '9')
             {
-
+                transformAtual.position = J[9].position;
             }
         }
       
@@ -481,7 +481,7 @@ public class LeitorQR1 : MonoBehaviour {
     void OnGUI()
     {
         Cronometro += Time.deltaTime;
-        Debug.Log(Cronometro);
+     //   Debug.Log(Cronometro);
         if (Cronometro > 1.5)
         {
             ler();
