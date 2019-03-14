@@ -5,11 +5,18 @@ using UnityEngine;
 
 public class PanZoom : MonoBehaviour
 {
+
+    public GameObject setores;
+
     Vector3 touchStart;
     public float zoomOutMin = 100;
     public float zoomOutMax = 400;
     public float velocidadeZoom=3;
     public float velocidadeZoomTouch=5;
+    public float xMin;
+    public float zMin;
+    public float xMax;
+    public float zMax;
 
     // Start is called before the first frame update
     void Start()
@@ -46,7 +53,15 @@ public class PanZoom : MonoBehaviour
             Camera.main.transform.position += direction;
         }
         zoom(Input.GetAxis("Mouse ScrollWheel")*velocidadeZoom);
-        
+        Camera.main.transform.position = new Vector3(Mathf.Clamp(Camera.main.transform.position.x, xMin, xMax), 40, Mathf.Clamp(Camera.main.transform.position.z, zMin, zMax));
+        if(Camera.main.orthographicSize >= 600)
+        {
+            setores.active = true;
+        }else if(Camera.main.orthographicSize < 600)
+        {
+            setores.active = false;
+
+        }
     }
 
     void zoom(float increment)

@@ -9,15 +9,15 @@ public class InputTouch : MonoBehaviour {
     public float zMin;
     public float xMax;
     public float zMax;
-    Transform transform;
-    public GameObject canvasPainel;
-    RawImage raw;
+  //  Transform transform;
+  //  public GameObject canvasPainel;
+   // RawImage raw;
 
 
     private void Start()
     {
-        raw = canvasPainel.GetComponent<RawImage>();
-        transform = GetComponent<Transform>();
+       // raw = canvasPainel.GetComponent<RawImage>();
+        //transform = GetComponent<Transform>();
     }
     // Update is called once per frame
     void Update () {
@@ -30,7 +30,7 @@ public class InputTouch : MonoBehaviour {
         Camera.main.transform.position = new Vector3(Mathf.Clamp(Camera.main.transform.position.x, xMin, xMax), 40, Mathf.Clamp(Camera.main.transform.position.z, zMin, zMax));
 
     }
-
+/*
     public void zoomIn()
 
     {
@@ -104,6 +104,6 @@ public class InputTouch : MonoBehaviour {
         Camera.main.transform.position = camera;
 
 
-    }
+    }*/
 
 }
