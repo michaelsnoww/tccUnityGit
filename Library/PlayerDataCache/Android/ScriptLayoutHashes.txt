@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Minato2/Desktop/tcc6.0.apk
+C:/Users/Minato2/Desktop/tcc7.0.apk
 SceneListBegin?
 Assets/Scenes/6mapa com plant- nomes e cores  - testando duplo clique.unity
 SceneListEnd?
