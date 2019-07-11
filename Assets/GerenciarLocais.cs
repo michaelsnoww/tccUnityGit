@@ -6,6 +6,10 @@ public class GerenciarLocais : MonoBehaviour
 {
     public Locais[] banheiros;
     public Locais[] salas;
+    public Locais[] entradas;
+    public Locais[] laboratorios;
+    public Locais[] outros;
+    public Locais[] coodernacao;
 
     // Start is called before the first frame update
     void Start()
