@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/michael/Desktop/testeTCC.aab
+C:/Users/michael/Desktop/tcc123teste.apk
 SceneListBegin?
 Assets/Scenes/8 menus.unity
 SceneListEnd?
@@ -56,6 +56,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 98ad81e9f689a492509f07e75b810aaa Unity.TextMeshPro.dll:TMPro.TMP_InputField
 d6a201de7ac001dbcf28c12747c7acef Assembly-CSharp.dll:.Locais
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ListarSetores
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 5fc094978ce3e3591a7500ed380d854a UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -173,7 +174,6 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
+6614d2d6afbfeddd911c5c7f00920468 Assembly-CSharp.dll:.MenuPrincipal
 33b4ec109c6f21f532b63ddec0c7bc18 Assembly-CSharp.dll:.NavigationDebug
 c9576a4d25ca9b28d2c462d959ae894c Assembly-CSharp.dll:.LoginController
-5606bf6969afeec9cbcf88dc5349dafc Assembly-CSharp.dll:.MenuPrincipal
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ListarSetores
