@@ -643,7 +643,7 @@ GameObject:
   - component: {fileID: 17041496}
   - component: {fileID: 17041497}
   m_Layer: 11
-  m_Name: ARQUIVO
+  m_Name: "COORD. DE ARTICULA\xC7\xC3O COMUNITARIA"
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -931,7 +931,7 @@ GameObject:
   - component: {fileID: 31525058}
   - component: {fileID: 31525057}
   m_Layer: 2
-  m_Name: "LAB. DE PESQUISA E INOVA\xC7\xC3O TECNOL\xD3GICA "
+  m_Name: LAB. DE LINGUAS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -989,7 +989,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "LAB. DE PESQUISA E \nINOVA\xC7\xC3O TECNOL\xD3GICA\r 2\n"
+  m_Text: 'LAB. DE LINGUAS
+
+
+'
 --- !u!222 &31525058
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2289,7 +2292,7 @@ GameObject:
   - component: {fileID: 97914432}
   - component: {fileID: 97914433}
   m_Layer: 0
-  m_Name: SALA DE AULA 8
+  m_Name: SALA 317
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -2779,7 +2782,7 @@ GameObject:
   - component: {fileID: 125187937}
   - component: {fileID: 125187936}
   m_Layer: 2
-  m_Name: DIPESP
+  m_Name: PIBID E RESIDENCIA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2792,16 +2795,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125187934}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 979460422}
   m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1130, y: -878}
+  m_AnchoredPosition: {x: 1104, y: -878}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &125187936
@@ -2837,7 +2840,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: DIPESP
+  m_Text: "PIBID \nE \nRESIDENCIA"
 --- !u!222 &125187937
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3361,7 +3364,7 @@ GameObject:
   - component: {fileID: 136005519}
   - component: {fileID: 136005518}
   m_Layer: 2
-  m_Name: LAB. BIOQUIMICA I
+  m_Name: LAB. MULTIDISCIPLINAR I
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3419,7 +3422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: LAB. BIOQUIMICA I
+  m_Text: LAB. MULTIDISCIPLINAR I
 --- !u!222 &136005519
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4434,7 +4437,7 @@ GameObject:
   - component: {fileID: 179160989}
   - component: {fileID: 179160990}
   m_Layer: 0
-  m_Name: SALA DE AULA 15
+  m_Name: SALA 312
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -5514,7 +5517,7 @@ GameObject:
   - component: {fileID: 199467189}
   - component: {fileID: 199467188}
   m_Layer: 2
-  m_Name: SALA DE AULA (8)
+  m_Name: SALA 308
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5572,7 +5575,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 17
+  m_Text: 'SALA 308
+
 
 '
 --- !u!222 &199467189
@@ -5901,7 +5905,7 @@ GameObject:
   - component: {fileID: 207179649}
   - component: {fileID: 207179650}
   m_Layer: 0
-  m_Name: SALA DE AULA 20
+  m_Name: SALA DE AULA
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -6311,7 +6315,7 @@ GameObject:
   - component: {fileID: 218114672}
   - component: {fileID: 218114673}
   m_Layer: 0
-  m_Name: LAB. BIOLOGIA
+  m_Name: LAB. MULTIDISCIPLINAR III
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -7276,7 +7280,7 @@ GameObject:
   - component: {fileID: 243426624}
   - component: {fileID: 243426625}
   m_Layer: 0
-  m_Name: "LAB. DE INSTALA\xC7\xD5ES  HIDRAULICAS E SANIT\xC1RIAS"
+  m_Name: "LAB. CONSTRU\xC7\xC3O CIVIL"
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -8335,7 +8339,7 @@ GameObject:
   - component: {fileID: 268135483}
   - component: {fileID: 268135482}
   m_Layer: 2
-  m_Name: SALA DE AULA (18)
+  m_Name: SALA 317
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8393,7 +8397,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 8
+  m_Text: 'SALA 317
 
 '
 --- !u!222 &268135483
@@ -8601,7 +8605,7 @@ GameObject:
   - component: {fileID: 274380809}
   - component: {fileID: 274380810}
   m_Layer: 0
-  m_Name: SALA DE AULA 7
+  m_Name: SALA 315
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -10251,7 +10255,7 @@ GameObject:
   - component: {fileID: 344128828}
   - component: {fileID: 344128827}
   m_Layer: 2
-  m_Name: SALA DE AULA (11)
+  m_Name: SALA 314
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10309,7 +10313,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: SALA DE AULA 11
+  m_Text: SALA 314
 --- !u!222 &344128828
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11114,7 +11118,7 @@ GameObject:
   - component: {fileID: 391840216}
   - component: {fileID: 391840217}
   m_Layer: 0
-  m_Name: "LAB. INFORM\xC1TICA 2"
+  m_Name: "LAB. INFORM\xC1TICA"
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -12456,7 +12460,7 @@ GameObject:
   - component: {fileID: 422186074}
   - component: {fileID: 422186075}
   m_Layer: 0
-  m_Name: SALA DE AULA 10
+  m_Name: SALA 313
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -12846,7 +12850,7 @@ GameObject:
   - component: {fileID: 440866330}
   - component: {fileID: 440866329}
   m_Layer: 2
-  m_Name: CPA
+  m_Name: PROTOCOLO E ARQUIVO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12868,7 +12872,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1117, y: -410}
+  m_AnchoredPosition: {x: 1190, y: -499}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &440866329
@@ -12904,7 +12908,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: CPA
+  m_Text: PROTOCOLO E ARQUIVO
 --- !u!222 &440866330
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13244,7 +13248,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "LAB. INFORM\xC1TICA 2"
+  m_Text: "LAB. INFORM\xC1TICA\n"
 --- !u!222 &459941142
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14204,7 +14208,7 @@ GameObject:
   - component: {fileID: 481698377}
   - component: {fileID: 481698376}
   m_Layer: 2
-  m_Name: SALA DE AULA (14)
+  m_Name: SALA 318
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14262,9 +14266,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 13
-
-'
+  m_Text: SALA 318
 --- !u!222 &481698377
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15515,7 +15517,7 @@ GameObject:
   - component: {fileID: 525158655}
   - component: {fileID: 525158656}
   m_Layer: 0
-  m_Name: SALA DE AULA 19
+  m_Name: SALA DE DESENHO
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -15975,7 +15977,7 @@ GameObject:
   - component: {fileID: 536807355}
   - component: {fileID: 536807356}
   m_Layer: 0
-  m_Name: LAB. BIOQUIMICA II
+  m_Name: LAB. MULTIDISCIPLINAR II
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -18524,6 +18526,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 596056472}
   m_CullTransparentMesh: 0
+--- !u!1 &598237555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 598237556}
+  - component: {fileID: 598237558}
+  - component: {fileID: 598237557}
+  m_Layer: 2
+  m_Name: COLAB (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &598237556
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598237555}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 979460422}
+  m_RootOrder: 98
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -538, y: 2033}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &598237557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598237555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 50
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: SGE
+--- !u!222 &598237558
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598237555}
+  m_CullTransparentMesh: 0
 --- !u!1 &598483909
 GameObject:
   m_ObjectHideFlags: 0
@@ -19504,7 +19585,7 @@ GameObject:
   - component: {fileID: 632107281}
   - component: {fileID: 632107280}
   m_Layer: 2
-  m_Name: SALA DE AULA (4)
+  m_Name: SALA 307
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19562,7 +19643,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: SALA DE AULA 4
+  m_Text: SALA 307
 --- !u!222 &632107281
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20430,7 +20511,7 @@ GameObject:
   - component: {fileID: 680061149}
   - component: {fileID: 680061148}
   m_Layer: 2
-  m_Name: SALA DE AULA
+  m_Name: LAB. DESENHO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20488,10 +20569,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 19
-
-
-'
+  m_Text: LAB. DESENHO
 --- !u!222 &680061149
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20512,7 +20590,7 @@ GameObject:
   - component: {fileID: 680064714}
   - component: {fileID: 680064713}
   m_Layer: 2
-  m_Name: SALA DE AULA (19)
+  m_Name: NAPNE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20594,7 +20672,7 @@ GameObject:
   - component: {fileID: 687104273}
   - component: {fileID: 687104274}
   m_Layer: 0
-  m_Name: 'LAB. DE TUTORIA  DEAD '
+  m_Name: "LAB. DE PESQUISA E INOVA\xC7\xD5ES TECNOLOGICAS"
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -21703,7 +21781,7 @@ GameObject:
   - component: {fileID: 712666502}
   - component: {fileID: 712666503}
   m_Layer: 0
-  m_Name: SALA DE AULA 17
+  m_Name: SALA 308
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -22388,7 +22466,7 @@ GameObject:
   - component: {fileID: 739434933}
   - component: {fileID: 739434934}
   m_Layer: 0
-  m_Name: SALA DE AULA 9
+  m_Name: SALA 319
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -22600,7 +22678,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &739784346
 Transform:
   m_ObjectHideFlags: 0
@@ -23948,7 +24026,7 @@ GameObject:
   - component: {fileID: 784828987}
   - component: {fileID: 784828986}
   m_Layer: 2
-  m_Name: SALA DE AULA (3)
+  m_Name: SALA 305
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24006,7 +24084,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 3
+  m_Text: 'SALA 305
 
 '
 --- !u!222 &784828987
@@ -24032,7 +24110,7 @@ GameObject:
   - component: {fileID: 784939067}
   - component: {fileID: 784939068}
   m_Layer: 0
-  m_Name: SALA DE AULA 11
+  m_Name: SALA 314
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -25341,6 +25419,7 @@ MonoBehaviour:
   - {fileID: 900413164}
   - {fileID: 2107600753}
   - {fileID: 1384174972}
+  - {fileID: 1603123058}
 --- !u!1 &814812749
 GameObject:
   m_ObjectHideFlags: 0
@@ -28069,7 +28148,7 @@ GameObject:
   - component: {fileID: 878069883}
   - component: {fileID: 878069882}
   m_Layer: 2
-  m_Name: SALA DE AULA
+  m_Name: "SALA DE P\xD3S GRADUA\xC7\xC3O"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28127,9 +28206,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 22
-
-'
+  m_Text: "SALA DE P\xD3S GRADUA\xC7\xC3O\n\n"
 --- !u!222 &878069883
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28153,7 +28230,7 @@ GameObject:
   - component: {fileID: 885141118}
   - component: {fileID: 885141119}
   m_Layer: 11
-  m_Name: DIPESP
+  m_Name: PIBID E RESIDENCIA
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -28271,7 +28348,7 @@ GameObject:
   - component: {fileID: 885665236}
   - component: {fileID: 885665235}
   m_Layer: 2
-  m_Name: SALA DE AULA (9)
+  m_Name: SALA 310
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28329,9 +28406,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 16
-
-'
+  m_Text: SALA 310
 --- !u!222 &885665236
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28488,7 +28563,7 @@ GameObject:
   - component: {fileID: 895158153}
   - component: {fileID: 895158152}
   m_Layer: 2
-  m_Name: SALA DE AULA (12)
+  m_Name: SALA 307
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28546,9 +28621,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 12
-
-'
+  m_Text: SALA 316
 --- !u!222 &895158153
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28781,7 +28854,7 @@ GameObject:
   - component: {fileID: 901233275}
   - component: {fileID: 901233274}
   m_Layer: 2
-  m_Name: SALA DE AULA (5)
+  m_Name: SALA 309
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28839,7 +28912,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: SALA DE AULA 5
+  m_Text: 'SALA 309
+
+'
 --- !u!222 &901233275
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30123,7 +30198,7 @@ GameObject:
   - component: {fileID: 962872079}
   - component: {fileID: 962872078}
   m_Layer: 2
-  m_Name: SALA DE AULA (15)
+  m_Name: SALA 313
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30181,7 +30256,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 10
+  m_Text: 'SALA 313
 
 '
 --- !u!222 &962872079
@@ -30846,7 +30921,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 21
+  m_Text: 'SALA DE AULA
 
 '
 --- !u!222 &978931816
@@ -31045,6 +31120,7 @@ RectTransform:
   - {fileID: 1907793333}
   - {fileID: 1246109422}
   - {fileID: 502431263}
+  - {fileID: 598237556}
   m_Father: {fileID: 1120609107}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
@@ -31844,7 +31920,7 @@ GameObject:
   - component: {fileID: 1014462124}
   - component: {fileID: 1014462125}
   m_Layer: 0
-  m_Name: SALA DE AULA 18
+  m_Name: SALA 306
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -33213,7 +33289,7 @@ GameObject:
   - component: {fileID: 1053932031}
   - component: {fileID: 1053932032}
   m_Layer: 0
-  m_Name: "LAB. DE PESQUISA E  INOVA\xC7\xC3O TECNOL\xD3GICA  2"
+  m_Name: LAB. DE LINGUAS
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -34246,7 +34322,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 20
+  m_Text: 'SALA DE AULA
 
 
 '
@@ -34755,7 +34831,7 @@ GameObject:
   - component: {fileID: 1112405801}
   - component: {fileID: 1112405800}
   m_Layer: 2
-  m_Name: 'GABINETE DO DIRETOR '
+  m_Name: "GABINETE   DIRE\xC7\xC3O GERAL"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34813,13 +34889,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'GABINETE
-
-    DO
-
-    DIRETOR
-
-'
+  m_Text: "GABINETE  \nDIRE\xC7\xC3O GERAL"
 --- !u!222 &1112405801
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -35132,7 +35202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1120609107
 Transform:
   m_ObjectHideFlags: 0
@@ -35876,7 +35946,7 @@ GameObject:
   - component: {fileID: 1154884803}
   - component: {fileID: 1154884804}
   m_Layer: 0
-  m_Name: LAB. DE CARTOGRAFIA
+  m_Name: LAB. DE LINGUAS
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -36927,7 +36997,7 @@ GameObject:
   - component: {fileID: 1201292190}
   - component: {fileID: 1201292189}
   m_Layer: 2
-  m_Name: SALA  DE  INFORMATICA
+  m_Name: SALA  DE  PESQUISA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36985,7 +37055,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "SALA \nDE \nINFORMATICA"
+  m_Text: "SALA \nDE \nPESQUISA"
 --- !u!222 &1201292190
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37802,7 +37872,7 @@ GameObject:
   - component: {fileID: 1242403802}
   - component: {fileID: 1242403801}
   m_Layer: 2
-  m_Name: SALA DE AULA (7)
+  m_Name: SALA 307
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37860,7 +37930,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 18
+  m_Text: 'SALA 306
 
 '
 --- !u!222 &1242403802
@@ -38388,7 +38458,7 @@ GameObject:
   - component: {fileID: 1250395903}
   - component: {fileID: 1250395902}
   m_Layer: 2
-  m_Name: "LAB. INFORM\xC1TICA"
+  m_Name: LAB. GEORREFERENCIAMENTO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38446,7 +38516,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "LAB. INFORM\xC1TICA"
+  m_Text: LAB. GEORREFERENCIAMENTO
 --- !u!222 &1250395903
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -38470,7 +38540,7 @@ GameObject:
   - component: {fileID: 1255704956}
   - component: {fileID: 1255704957}
   m_Layer: 0
-  m_Name: SALA DE AULA 21
+  m_Name: SALA DE AULA
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -39676,7 +39746,7 @@ GameObject:
   - component: {fileID: 1285658788}
   - component: {fileID: 1285658787}
   m_Layer: 2
-  m_Name: PRONATEC
+  m_Name: COORD. DE CULTURA E LAZER
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39698,7 +39768,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -869, y: -464}
+  m_AnchoredPosition: {x: -897, y: -464}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1285658787
@@ -39734,9 +39804,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'PRONATEC
-
-'
+  m_Text: "COORD. \nDE CULTURA\n E LAZER\n"
 --- !u!222 &1285658788
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -40451,7 +40519,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: LAB. BIOQUIMICA II
+  m_Text: LAB. MULTIDISCIPLINAR II
 --- !u!222 &1319441169
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -40566,7 +40634,7 @@ GameObject:
   - component: {fileID: 1322735684}
   - component: {fileID: 1322735685}
   m_Layer: 0
-  m_Name: SALA DE AULA 6
+  m_Name: SALA 311
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -41008,7 +41076,7 @@ GameObject:
   - component: {fileID: 1335037198}
   - component: {fileID: 1335037199}
   m_Layer: 0
-  m_Name: "LAB. INFORM\xC1TICA"
+  m_Name: LAB. GEORREFERENCIAMENTO
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -44294,7 +44362,7 @@ GameObject:
   - component: {fileID: 1421782547}
   - component: {fileID: 1421782548}
   m_Layer: 0
-  m_Name: LAB. BIOQUIMICA I
+  m_Name: LAB. MULTIDISCIPLINAR I
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -44470,7 +44538,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "LAB. DE PESQUISA E \nINOVA\xC7\xC3O TECNOL\xD3GICA\r\n"
+  m_Text: 'LAB. DEAD
+
+'
 --- !u!222 &1422603202
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45009,7 +45079,7 @@ GameObject:
   - component: {fileID: 1444144912}
   - component: {fileID: 1444144913}
   m_Layer: 0
-  m_Name: SALA DE AULA 22
+  m_Name: "SALA DE P\xD3S GRADUA\xC7\xC3O"
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -45127,7 +45197,7 @@ GameObject:
   - component: {fileID: 1447177206}
   - component: {fileID: 1447177205}
   m_Layer: 2
-  m_Name: DIPESP (2)
+  m_Name: CGP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45185,7 +45255,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'DIPESP2
+  m_Text: 'CGP
 
 '
 --- !u!222 &1447177206
@@ -45804,7 +45874,7 @@ GameObject:
   - component: {fileID: 1464845029}
   - component: {fileID: 1464845030}
   m_Layer: 0
-  m_Name: SALA DE AULA 4
+  m_Name: SALA 307
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -46528,7 +46598,7 @@ GameObject:
   - component: {fileID: 1480538753}
   - component: {fileID: 1480538752}
   m_Layer: 2
-  m_Name: SALA DE AULA (6)
+  m_Name: SALA 311
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46586,7 +46656,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: SALA DE AULA 6
+  m_Text: 'SALA 311
+
+'
 --- !u!222 &1480538753
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47262,7 +47334,7 @@ GameObject:
   - component: {fileID: 1507258260}
   - component: {fileID: 1507258259}
   m_Layer: 2
-  m_Name: SALA DE AULA (16)
+  m_Name: SALA 315
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47320,7 +47392,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 7
+  m_Text: 'SALA 315
 
 '
 --- !u!222 &1507258260
@@ -49748,7 +49820,7 @@ GameObject:
   - component: {fileID: 1565200700}
   - component: {fileID: 1565200701}
   m_Layer: 11
-  m_Name: CPA2
+  m_Name: PROTOCOLO E ARQUIVO
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -50111,7 +50183,7 @@ GameObject:
   - component: {fileID: 1574194933}
   - component: {fileID: 1574194934}
   m_Layer: 0
-  m_Name: SALA DE AULA 3
+  m_Name: SALA 305
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -51558,7 +51630,7 @@ GameObject:
   - component: {fileID: 1603123057}
   - component: {fileID: 1603123058}
   m_Layer: 0
-  m_Name: SEM NOME
+  m_Name: SGE
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -52582,7 +52654,7 @@ GameObject:
   - component: {fileID: 1621093171}
   - component: {fileID: 1621093170}
   m_Layer: 2
-  m_Name: "LAB. DE INSTALA\xC7\xD5ES  HIDRAULICAS E SANIT\xC1RIAS"
+  m_Name: "LAB. CONSTRU\xC7\xC3O CIVIL"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52640,7 +52712,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "LAB. DE INSTALA\xC7\xD5ES \nHIDRAULICAS E SANIT\xC1RIAS"
+  m_Text: "LAB. CONSTRU\xC7\xC3O CIVIL"
 --- !u!222 &1621093171
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -54823,7 +54895,7 @@ GameObject:
   - component: {fileID: 1678911866}
   - component: {fileID: 1678911867}
   m_Layer: 0
-  m_Name: SALA DE AULA 12
+  m_Name: SALA 316
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -57240,7 +57312,7 @@ GameObject:
   - component: {fileID: 1745820584}
   - component: {fileID: 1745820585}
   m_Layer: 0
-  m_Name: SALA DE AULA 5
+  m_Name: SALA 309
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -58704,7 +58776,7 @@ GameObject:
   - component: {fileID: 1797939253}
   - component: {fileID: 1797939252}
   m_Layer: 2
-  m_Name: LAB. DE CARTOGRAFIA
+  m_Name: LAB. DE LINGUAS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58762,7 +58834,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: LAB. DE CARTOGRAFIA
+  m_Text: 'LAB. DE LINGUAS
+
+'
 --- !u!222 &1797939253
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -59059,7 +59133,7 @@ GameObject:
   - component: {fileID: 1804702806}
   - component: {fileID: 1804702807}
   m_Layer: 0
-  m_Name: "LAB. DE PESQUISA E  INOVA\xC7\xC3O TECNOL\xD3GICA "
+  m_Name: LAB. DEAD
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -59450,7 +59524,7 @@ GameObject:
   - component: {fileID: 1813482049}
   - component: {fileID: 1813482048}
   m_Layer: 2
-  m_Name: SALA DE AULA (17)
+  m_Name: SALA 319
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59508,7 +59582,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: SALA DE AULA 9
+  m_Text: 'SALA 319
+
+'
 --- !u!222 &1813482049
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -60035,7 +60111,7 @@ GameObject:
   - component: {fileID: 1830337593}
   - component: {fileID: 1830337594}
   m_Layer: 11
-  m_Name: 'GABINETE DO DIRETOR '
+  m_Name: "GABINETE DIRE\xC7\xC3O GERAL"
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -60435,7 +60511,7 @@ GameObject:
   - component: {fileID: 1845118392}
   - component: {fileID: 1845118393}
   m_Layer: 0
-  m_Name: SALA DE AULA 13
+  m_Name: SALA 318
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -61613,7 +61689,7 @@ GameObject:
   - component: {fileID: 1876929954}
   - component: {fileID: 1876929953}
   m_Layer: 2
-  m_Name: "LAB. DE ELETR\xD4NICA E  COMANDOS EL\xC9TRICOS"
+  m_Name: "LAB. DE PESQUISA E INOVA\xC7\xD5ES TECNOLOGICAS"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61671,7 +61747,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "LAB. DE ELETR\xD4NICA E \nCOMANDOS EL\xC9TRICOS"
+  m_Text: "LAB. DE PESQUISA E \nINOVA\xC7\xD5ES TECNOLOGICAS"
 --- !u!222 &1876929954
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -62149,7 +62225,7 @@ GameObject:
   - component: {fileID: 1886929836}
   - component: {fileID: 1886929837}
   m_Layer: 11
-  m_Name: PRONATEC
+  m_Name: COORD. DE CULTURA E LAZER
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -62573,7 +62649,7 @@ GameObject:
   - component: {fileID: 1892299143}
   - component: {fileID: 1892299144}
   m_Layer: 0
-  m_Name: SALA DE AULA 16
+  m_Name: SALA 310
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -63440,7 +63516,7 @@ GameObject:
   - component: {fileID: 1912873296}
   - component: {fileID: 1912873297}
   m_Layer: 11
-  m_Name: DIPESP2
+  m_Name: CGP
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -64464,7 +64540,7 @@ GameObject:
   - component: {fileID: 1950452382}
   - component: {fileID: 1950452381}
   m_Layer: 2
-  m_Name: SALA DE AULA (10)
+  m_Name: SALA 312
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64522,7 +64598,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 15
+  m_Text: 'SALA 312
 
 '
 --- !u!222 &1950452382
@@ -64654,7 +64730,7 @@ GameObject:
   - component: {fileID: 1963352016}
   - component: {fileID: 1963352015}
   m_Layer: 2
-  m_Name: Arquivo
+  m_Name: "COORD. DE ARTICULA\xC7\xC3O COMUNITARIA"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64676,7 +64752,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -913, y: -878}
+  m_AnchoredPosition: {x: -921, y: -878}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1963352015
@@ -64706,15 +64782,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 50
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'ARQUIVO
-
-'
+  m_Text: "COORD. DE \nARTICULA\xC7\xC3O\n COMUNITARIA"
 --- !u!222 &1963352016
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -65299,7 +65373,7 @@ GameObject:
   - component: {fileID: 1988190246}
   - component: {fileID: 1988190245}
   m_Layer: 2
-  m_Name: LAB. BIOLOGIA
+  m_Name: LAB. MULTIDISCIPLINAR III
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65357,7 +65431,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: LAB. BIOLOGIA
+  m_Text: 'LAB. MULTIDISCIPLINAR III
+
+'
 --- !u!222 &1988190246
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -67023,7 +67099,7 @@ GameObject:
   - component: {fileID: 2050811711}
   - component: {fileID: 2050811712}
   m_Layer: 11
-  m_Name: CPA
+  m_Name: PROTOCOLO E ARQUIVO
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -67265,7 +67341,7 @@ GameObject:
   - component: {fileID: 2058718072}
   - component: {fileID: 2058718073}
   m_Layer: 0
-  m_Name: SALA  DE  INFORMATICA
+  m_Name: SALA  DE  PESQUISA
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -67465,7 +67541,7 @@ GameObject:
   - component: {fileID: 2061346846}
   - component: {fileID: 2061346847}
   m_Layer: 0
-  m_Name: SALA DE AULA 14
+  m_Name: SALA 320
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -67697,7 +67773,7 @@ GameObject:
   - component: {fileID: 2075589517}
   - component: {fileID: 2075589518}
   m_Layer: 11
-  m_Name: 'GABINETE DO DIRETOR '
+  m_Name: "GABINETE DIRE\xC7\xC3O GERAL"
   m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
@@ -68756,7 +68832,7 @@ GameObject:
   - component: {fileID: 2102018337}
   - component: {fileID: 2102018336}
   m_Layer: 2
-  m_Name: SALA DE AULA (13)
+  m_Name: SALA 320
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68814,7 +68890,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'SALA DE AULA 14
+  m_Text: 'SALA 320
+
 
 '
 --- !u!222 &2102018337
