@@ -5,6 +5,7 @@ using ZXing.QrCode;
 using UnityEngine;
 using System;
 using UnityEngine.UI;
+using UnityEngine.AI;
 
 public class LeitorQR1 : MonoBehaviour {
     private WebCamTexture camTexture;
@@ -14,7 +15,7 @@ public class LeitorQR1 : MonoBehaviour {
     public GameObject posicaoAtual;
     Transform transformAtual;
     private float Cronometro = 0;
-
+    public NavMeshAgent pessoaAgent;
     public Transform[] A;
     public Transform[] B;
     public Transform[] C;
@@ -501,8 +502,9 @@ public class LeitorQR1 : MonoBehaviour {
             if (result != null)
             {
                 Debug.Log("PARTE 1 = " + result.Text[0] + " PARTE 2 = " + result.Text[1]);
+                pessoaAgent.enabled = false;
                 CompararResultado(result.Text);
-
+                pessoaAgent.enabled = true;
             }
         }
         catch (Exception ex) { Debug.LogWarning(ex.Message); }

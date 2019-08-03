@@ -42629,6 +42629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fps: 5
   posicaoAtual: {fileID: 844385432}
+  pessoaAgent: {fileID: 844385434}
   A:
   - {fileID: 1573704478}
   - {fileID: 1132163720}
@@ -68449,7 +68450,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090799967}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.612}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 422186070}
